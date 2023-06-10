@@ -8,28 +8,29 @@ export default {
     extend: {},
   },
   plugins: [require("daisyui")],
+  
   daisyui: {
-    themes: [ "light",
+    themes: [
       {
         mytheme: {
         
-"primary": "#C82333",
+"primary": "#8c0327",
         
-"secondary": "#d926a9",
+"secondary": "#d75050",
         
-"accent": "#1fb2a6",
+"accent": "#d59b6c",
         
-"neutral": "#2a323c",
+"neutral": "#836b5d",
         
-"base-100": "#1d232a",
+"base-100": "#f2f2f2",
         
-"info": "#3abff8",
+"info": "#42aebd",
         
-"success": "#36d399",
+"success": "#489380",
         
-"warning": "#fbbd23",
+"warning": "#eb8014",
         
-"error": "#f87272",
+"error": "#e01a2e",
         },
       },
     ],
